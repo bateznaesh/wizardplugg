@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+  <meta charset=utf-8>
+  <title>Wizard Plugg</title>
+  <link rel="icon" type="image/x-icon" href="/browserLogo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <script src="recepiesScript.js"></script>
+  <style>
+    /* Style for the navbar */
+  </style>
+</head>
+
+<body onload="typeWriter(30, false);">
+    <nav class="bg-dark">
+      <div class="slowTyping" style="display: inline;"><a href="index.html" class="link">Home</a></div>
+      <div class="slowTyping" style="display: inline;"><a href="recepies.html" class="link">Sorts</a></div>
+      <div class="slowTyping" style="display: inline;"><a href="history.html" class="link">History</a></div>
+      <div class="slowTyping" style="display: inline;"><a href="lab.html" class="link">Lab</a></div>
+      <div class="slowTyping" style="display: inline;"><a href="shipment.html" class="link selectedNav">Shipment</a></div>
+      <div class="slowTyping" style="display: inline;"><a href="about.html" class="link">Reviews</a></div>
+      <div class="slowTyping" style="display: inline;"><a href="contacts.html" class="link">Order now</a></div>
+    </nav>
+
+  <div id="homeLogo">
+    <img id="homeLogoImage" src="homeLogo.gif" alt="">
+  </div>
+
+  <div id="pageEmptySpace"></div>
+
+
+
+  <div class="container-fluid">
+    <div class="px-lg-5">
+      <div class="row">
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm">
+            <img src="ship1.png" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" onclick="ClickedItem(this)" class="text-dark"><h3>💦Еконт Куриер - Севдалим Водното💦</h3></a></h5>
+              <p class="small text-muted mb-0"><h6>След успешното създаване на уебсайта WizardPlugg.com, Алдрик и неговият екип бързо осъзнаха необходимостта от ефективен и незабележим начин за доставка на техните магически гъби. Решението падна на отдел "Forest Shipment", който се намираше много близо до горичката, където се отглеждаха "Lab Grown Shrooms".</h6></p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm">
+            <img src="ship2.png" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" onclick="ClickedItem(this)" class="text-dark"><h3>💦Севдалим Водното Джета💦</h3></a></h5>
+              <p class="small text-muted mb-0"><h6>Така се роди идеята за доставката чрез магьосници и Еконт. Магьосниците от общността се ангажираха да прехвърлят стоката от гората към скрити места във водата, където чакаха джетовете на Еконт. Разполагайки със специално предназначени джетове, Еконт бе идеалният партньор за тази мисия. Техните джетове могат да преминават неоткрити по водните пътища, като предоставят възможност за незабележимо доставяне на стоката.</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm">
+            <img src="ship3.png" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" onclick="ClickedItem(this)" class="text-dark"><h3>💦Севдалим Водното Тъжен💦</h3></a>
+              </h5>
+              <p class="small text-muted mb-0"><h6>Процесът на доставка се извършваше по следния начин: магьосниците подготвяха гъбите и ги прикриваха във водоустойчиви опаковки, след което ги прехвърляха до скритите места във водата, където вече чакаха джетовете на Еконт. С помощта на въжета, свързващи стоката с джетовете, гъбите бяха изтеглени под водата и заредени на борда на джетовете, без да се излагат на опасност да се намокрят.
+
+                Пътят на доставка преминаваше през черно море, започвайки от Слънчев бряг и следвайки по река Камчия. Това предоставяше перфектна възможност за незабележима доставка, като стоката се преминаваше по водата, далеч от погледа на родната полиция.</h6></p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+
+<!-- Gallery item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+          <div class="bg-white rounded shadow-sm">
+            <img src="ship4.png" alt="" class="img-fluid card-img-top">
+            <div class="p-4">
+              <h5> <a href="#" onclick="ClickedItem(this)" class="text-dark"><h3>💦Севдалим Водното Гангстер💦</h3></a>
+              </h5>
+              <p class="small text-muted mb-0"><h6>Този изключително добре измислен метод на доставка осигуряваше на WizardPlugg.com възможността да продължи да предлага своите магически гъби на клиентите си по целия свят, без да бъде засегнат от законните органи или конкурентите си. Алдрик и неговият екип успяха да създадат перфектно функционираща система, която гарантираше безпроблемна и незабележима доставка на техните магически продукти.</h6>
+</p>
+              <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+      </div>
+      <div class="py-5 text-right"><a href="https://www.instagram.com/a.stanchevv"
+          class="btn btn-dark px-5 py-3 text-uppercase">
+          <img src="logo_instagram.png" alt="instagram" class="logoInstagram">ㅤ🌿🔥🎈🎈
+          ако искаш се нагърмиш пиши ми в инста @a.stanchevv 🎈🎈🔥🌿ㅤ
+          <img src="logo_instagram.png" alt="instagram" class="logoInstagram"></a></div>
+    </div>
+  </div>
+
+  <div id="blur" onclick="">
+    <div id="extraInfo">
+
+      <img id="close-icon-blur" src="close_icon.webp" alt="close icon" onclick="CloseBlur(this)">
+      <div>
+        <div class="bg-white rounded shadow-sm">
+          <img id="blurimg" src="wizard7.png" alt="" class="img-fluid card-img-top" id="extraImage">
+          <div class="p-4">
+            <h5 id="blurtitle" class="text-dark"> 🎈Whipped Cake 1.0 - Mazna BNR Collection🎈</h5>
+            <p id="blurdescription" class="small text-muted mb-0">тука пише JAVA SCRIPT INFOTO вместо тва дет е написано горе</p>
+            <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
